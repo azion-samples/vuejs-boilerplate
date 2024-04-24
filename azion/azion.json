@@ -1,0 +1,58 @@
+{
+  "name": "vuejs-boilerplate",
+  "bucket": "vuejs-boilerplate",
+  "preset": "vue",
+  "mode": "deliver",
+  "env": "production",
+  "prefix": "20240424170602",
+  "not-first-run": true,
+  "function": {
+    "id": 20762,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 20397,
+    "instance-name": "__DEFAULT__"
+  },
+  "application": {
+    "id": 1713979259,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1713978000,
+    "name": "__DEFAULT__"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 127175,
+      "origin-key": "d3f0f8ea-726e-4ae7-a7ef-afbaf9d3a66d",
+      "name": "vuejs-boilerplate_single"
+    },
+    {
+      "origin-id": 127177,
+      "origin-key": "9e4290a5-37f5-4ceb-9bec-2c85e035224b",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 238433,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 238435,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 238436,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
+}
